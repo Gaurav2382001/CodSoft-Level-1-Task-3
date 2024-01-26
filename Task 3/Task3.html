@@ -1,0 +1,49 @@
+<!-- The code you provided is an HTML document. It defines the structure and content of a web page. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- The code `<link rel="stylesheet" href="Task3.css">` is linking an external CSS file named
+  "Task3.css" to the HTML document. This CSS file contains styles that will be applied to the
+  elements in the HTML document, allowing you to control the appearance and layout of the calculator
+  interface. -->
+   <link rel="stylesheet" href="Task3.css">
+   <title>Calulator</title>
+</head>
+<body>
+   <!-- The code you provided represents a calculator interface. -->
+   <div class="main">
+      <input type="text" id = 'res'>
+      <div class="btn">
+         <input type="button" value = 'C' onclick = "Clear()">
+         <input type="button" value = '%' onclick = "Solve('%')">
+         <input type="button" value = '←' onclick ="Back('←')">
+         <input type="button" value = '/' onclick = "Solve('/')">
+         <br>
+         <input type="button" value = '7' onclick = "Solve('7')">
+         <input type="button" value = '8' onclick = "Solve('8')">
+         <input type="button" value = '9' onclick = "Solve('9')">
+         <input type="button" value = 'x' onclick = "Solve('*')">
+         <br>
+         <input type="button" value = '4' onclick = "Solve('4')">
+         <input type="button" value = '5' onclick = "Solve('5')">
+         <input type="button" value = '6' onclick = "Solve('6')">
+         <input type="button" value = '-' onclick = "Solve('-')">
+         <br>
+         <input type="button" value = '1' onclick = "Solve('1')">
+         <input type="button" value = '2' onclick = "Solve('2')">
+         <input type="button" value = '3' onclick = "Solve('3')">
+         <input type="button" value = '+' onclick = "Solve('+')">
+         <br>
+         <input type="button" value = '00'onclick = "Solve('00')">
+         <input type="button" value = '0' onclick = "Solve('0')">
+         <input type="button" value = '.' onclick = "Solve('.')">
+         <input type="button" value = '=' onclick = "Result()">
+      </div>
+   </div>
+   <!-- The code `<script src = 'Task3.js' ></script>` is linking an external JavaScript file named
+   "Task3.js" to the HTML document. This JavaScript file contains the logic and functionality for
+   the calculator interface. By linking the JavaScript file, the HTML document can access and
+   execute the JavaScript code, allowing the calculator to perform calculations and display results. -->
+   <script src = 'Task3.js' ></script>
+</body>
+</html>
